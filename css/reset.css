@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 68px;
+    padding-right: 68px;
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+}
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        padding-left: 68px;
+        padding-right: 68px;
+    }
+
+}
+
+/* reset */
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+input{
+    margin: 0;
+    outline: none;
+}
+
+button{
+    outline: none;
+}
