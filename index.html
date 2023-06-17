@@ -8,8 +8,8 @@
     <link href="https: //fonts.googleapis.com/css2? family= Inter:wght@300;400;500;600 & display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,31 +17,42 @@
         <h1 class="header-section__logo-titel">
             NeoSchool
         </h1>
-        <ul class="header-section__list">
-            <li class="header-section__item">
-                <span class="header-section__span">
-                    Головна
-                </span>
-            </li>
-            <li class="header-section__item">
-                <span class="header-section__span">
-                    Інформація
-                </span>
-            </li>
-            <li class="header-section__item">
-                <span class="header-section__span">
-                    Правила
-                </span>
-            </li>
-            <li class="header-section__item">
-                <span class="header-section__span">
-                    Контакти
-                </span>
-            </li>
-        </ul>
+        <nav class="header-section__nav">
+            <input class="header-section__input" id="toggle" type="checkbox">
+            <label class="header-section__label" for="toggle">
+                <span class="header-section__menu-span"></span>
+            </label>
+            <ul class="header-section__list">
+                <li class="header-section__item">
+                    <span class="header-section__span">
+                        Головна
+                    </span>
+                </li>
+                <li class="header-section__item">
+                    <span class="header-section__span">
+                        Інформація
+                    </span>
+                </li>
+                <li class="header-section__item">
+                    <span class="header-section__span">
+                        Правила
+                    </span>
+                </li>
+                <li class="header-section__item">
+                    <span class="header-section__span">
+                        Контакти
+                    </span>
+                </li>
+            </ul>
+        </nav>
         <button class="header-section__button">
             Зв'яжіться з нами
         </button>
+        <!-- <button class="header-section__open-button">
+            <svg class="header-section__open-icon">
+                <use href="./img/symbol-defs.svg#icon-menu"></use>
+            </svg>
+        </button> -->
     </header>
     <main>
         <section class="hero-section">
